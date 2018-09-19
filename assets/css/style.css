@@ -504,7 +504,7 @@ img {
 }
 
 .theme-btn-s2:hover, .theme-btn-s3:hover, .theme-btn-s4:hover {
-  background-color: #fa4f00;
+  background-color: #962626;
   color: #fff;
 }
 
@@ -616,6 +616,26 @@ img {
   height: 415px;
   position: relative;
   width: 100%;
+}
+
+.page-title-contact {
+  background: url("../images/contact.jpg") center center/cover no-repeat local !important;
+}
+
+.page-title-portfolio {
+  background: url("../images/portfolio.jpg") center center/cover no-repeat local !important;
+}
+
+.page-title-civil {
+  background: url("../images/civil.jpg") center center/cover no-repeat local !important;
+}
+
+.page-title-services {
+  background: url("../images/services.jpg") center center/cover no-repeat local !important;
+}
+
+.page-title-careers {
+  background: url("../images/careers.jpg") center center/cover no-repeat local !important;
 }
 
 @media (max-width: 991px) {
@@ -1257,12 +1277,12 @@ img {
 .pagination-wrapper .pg-pagination .active a,
 .pagination-wrapper .pg-pagination li a:hover {
   background: #C90104;
-  background: -webkit-linear-gradient(top, #C90104, #fa4f00);
-  background: -moz-linear-gradient(top, #C90104, #fa4f00);
-  background: -o-linear-gradient(top, #C90104, #fa4f00);
-  background: -ms-linear-gradient(top, #C90104, #fa4f00);
-  background: -webkit-gradient(linear, left top, left bottom, from(#C90104), to(#fa4f00));
-  background: linear-gradient(top, #C90104, #fa4f00);
+  background: -webkit-linear-gradient(top, #C90104, #962626);
+  background: -moz-linear-gradient(top, #C90104, #962626);
+  background: -o-linear-gradient(top, #C90104, #962626);
+  background: -ms-linear-gradient(top, #C90104, #962626);
+  background: -webkit-gradient(linear, left top, left bottom, from(#C90104), to(#962626));
+  background: linear-gradient(top, #C90104, #962626);
   color: #fff;
 }
 
@@ -1700,7 +1720,7 @@ img {
   }
 }
 
-.header-style-1 .topbar .contact-info ul li, .header-style-2 .topbar .contact-info ul li, .header-style-3 .topbar .contact-info ul li {
+.header-style-1 .topbar .contact-info ul li, .header-style-2 .topbar .contact-info ul li, .header-style-3 .topbar .contact-info ul li, .header-style-3 .topbar .office-hour ul li {
   float: left;
 }
 
@@ -2409,7 +2429,6 @@ img {
 }
 
 .site-footer .recent-post-widget li {
-  padding-left: 88px;
   position: relative;
 }
 
@@ -2739,6 +2758,18 @@ img {
   margin: 0;
 }
 
+ .partners-section .view-all-services {
+  font-family: "Heebo", sans-serif;
+  position: relative;
+  z-index: 10;
+  font-size: 18px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #7a8595;
+  margin: 0;
+  padding-top: 25px;
+}
+
 @media (max-width: 1199px) {
   .services-section .view-all-services {
     font-size: 16px;
@@ -2761,7 +2792,7 @@ img {
   }
 }
 
-.services-section .view-all-services a {
+.services-section .view-all-services a, .partners-section .view-all-services a {
   color: #C90104;
 }
 
@@ -3645,7 +3676,7 @@ img {
 }
 
 .contact-section .contact-form .submit-btn-wrap input:hover {
-  background-color: #ea4a00;
+  background-color: #962626;
 }
 
 .contact-section .contact-form form .error-handling-messages {
@@ -4060,7 +4091,7 @@ img {
 }
 
 .news-letter-section form div button:hover {
-  background-color: #fa4f00;
+  background-color: #962626;
 }
 
 /*--------------------------------------------------------------
@@ -6664,7 +6695,7 @@ img {
 
 .service-single-content .details ul {
   list-style-type: none;
-  padding: 2em 0 3em;
+  padding-bottom: 3em;
 }
 
 .service-single-content .details ul li {
