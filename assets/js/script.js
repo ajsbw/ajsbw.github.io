@@ -498,11 +498,11 @@
     function map() {
 
         var locations = [
-            ['AJS Buildwell', 12.9546617,77.707073,2],
+            ['AJS Buildwell', 12.9682750,77.7047650,2],
         ];
 
         var map = new google.maps.Map(document.getElementById('map'), {
-            center: new google.maps.LatLng(12.9546617, 77.707073),
+            center: new google.maps.LatLng(12.9682750, 77.7047650),
             zoom: 12,
             scrollwheel: false,
             mapTypeId: google.maps.MapTypeId.ROADMAP

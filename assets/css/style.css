@@ -619,23 +619,39 @@ img {
 }
 
 .page-title-contact {
-  background: url("../images/contact.jpg") center center/cover no-repeat local !important;
+  background: url("../images/contact.jpg") center center/cover no-repeat local;
 }
 
 .page-title-portfolio {
-  background: url("../images/portfolio.jpg") center center/cover no-repeat local !important;
+  background: url("../images/portfolio.jpg") center center/cover no-repeat local;
 }
 
 .page-title-civil {
-  background: url("../images/civil.jpg") center center/cover no-repeat local !important;
+  background: url("../images/civil.jpg") center center/cover no-repeat local;
 }
 
 .page-title-services {
-  background: url("../images/services.jpg") center center/cover no-repeat local !important;
+  background: url("../images/services.jpg") center center/cover no-repeat local;
 }
 
 .page-title-careers {
-  background: url("../images/careers.jpg") center center/cover no-repeat local !important;
+  background: url("../images/careers.jpg") center center/cover no-repeat local;
+}
+
+.page-title-mission {
+  background: url("../images/mission.jpg") center center/cover no-repeat local;
+}
+
+.page-title-review {
+  background: url("../images/review.jpg") center center/cover no-repeat local;
+}
+
+.page-title-team {
+  background: url("../images/team.jpg") center center/cover no-repeat local;
+}
+
+.page-title-about {
+  background: url("../images/about.jpg") center center/cover no-repeat local;
 }
 
 @media (max-width: 991px) {
@@ -3986,6 +4002,14 @@ img {
   position: absolute;
   left: 0;
   top: 0;
+}
+
+.contact-info-map-section .contact-info ul a {
+  color: #fff;
+}
+
+.contact-info-map-section .contact-info ul a:hover {
+  color: #C90104;
 }
 
 /*--------------------------------------------------------------
