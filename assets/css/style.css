@@ -282,7 +282,7 @@ img {
   display: none;
   position: fixed;
   z-index: 999;
-  right: 38px;
+  right: 15px;
   bottom: 96px;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -7633,6 +7633,16 @@ img {
 
 .blog-single-section .comment-respond .submit-btn button:hover {
   background-color: #e04700;
+}
+
+iframe#drift-widget.drift-widget-welcome-online {
+  bottom: 0px !important;
+  right: 0px !important;
+}
+
+iframe#drift-widget.drift-widget-welcome-expanded-online {
+  bottom: 0px !important;
+  right: 0px !important;
 }
 
 /*# sourceMappingURL=style.css.map */
