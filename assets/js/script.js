@@ -376,11 +376,11 @@
     if($(".partners-slider".length)) {
         $(".partners-slider").owlCarousel({
             autoplay:true,
-            smartSpeed: 300,
+            smartSpeed: 10,
             margin: 30,
             loop:true,
             autoplayHoverPause:true,
-            dots: false,
+            dots: true,
             responsive: {
                 0 : {
                     items: 2
