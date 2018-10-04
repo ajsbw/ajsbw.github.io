@@ -626,6 +626,18 @@ img {
   background: url("../images/civil.jpg") center center/cover no-repeat local;
 }
 
+.page-title-water {
+  background: url("../images/sample-ajs-work.png") center center/cover no-repeat local;
+}
+
+.page-title-mep {
+  background: url("../images/mep.jpg") center center/cover no-repeat local;
+}
+
+.page-title-interiors {
+  background: url("../images/interior.jpg") center center/cover no-repeat local;
+}
+
 .page-title-services {
   background: url("../images/services.jpg") center center/cover no-repeat local;
 }
@@ -2878,7 +2890,7 @@ img {
 #0.8	about-section
 --------------------------------------------------------------*/
 .about-section {
-  background: url("../images/about-section-bg.jpg") center center/cover no-repeat local;
+  background: url("../images/sample-ajs-work.png") center center/cover no-repeat local;
 }
 
 .about-section .content {
@@ -7644,5 +7656,7 @@ iframe#drift-widget.drift-widget-welcome-expanded-online {
   bottom: 0px !important;
   right: 0px !important;
 }
-
+.modal.and.carousel {
+  position: fixed;
+}
 /*# sourceMappingURL=style.css.map */
